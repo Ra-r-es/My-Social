@@ -19,39 +19,9 @@ This project implements a relational database for a social media platform, desig
 
 To automatically generate unique IDs for each table, sequences are used. Each table with an auto-incrementing primary key has an associated sequence.
 
-- `seq_utilizator`: For `Utilizator` table
-- `seq_postari`: For `Postari` table
-- `seq_video`: For `Video` table
-- `seq_like`: For `LIKE` table
-- `seq_comentarii`: For `Comentarii` table
-- `seq_reactie`: For `Reactie` table
-- `seq_tag`: For `Tag` table
-- `seq_follow`: For `Follow` table
-- `seq_poze`: For `Poze` table
-- `seq_grup`: For `Grup` table
-- `seq_membru_grup`: For `Membru_Grup` table
-- `seq_eveniment`: For `Eveniment` table
-- `seq_participant_eveniment`: For `Participant_Eveniment` table
-- `seq_mesaj`: For `Mesaj` table
-
 ### 2. Triggers
 
 Triggers are used to automatically assign values from sequences to the primary key fields before inserting a new record into the respective tables.
-
-- `trg_utilizator`: Trigger for `Utilizator` table
-- `trg_postari`: Trigger for `Postari` table
-- `trg_video`: Trigger for `Video` table
-- `trg_like`: Trigger for `LIKE` table
-- `trg_comentarii`: Trigger for `Comentarii` table
-- `trg_reactie`: Trigger for `Reactie` table
-- `trg_tag`: Trigger for `Tag` table
-- `trg_follow`: Trigger for `Follow` table
-- `trg_poze`: Trigger for `Poze` table
-- `trg_grup`: Trigger for `Grup` table
-- `trg_membru_grup`: Trigger for `Membru_Grup` table
-- `trg_eveniment`: Trigger for `Eveniment` table
-- `trg_participant_eveniment`: Trigger for `Participant_Eveniment` table
-- `trg_mesaj`: Trigger for `Mesaj` table
 
 ## Key Components
 
